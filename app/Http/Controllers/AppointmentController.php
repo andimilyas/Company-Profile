@@ -22,7 +22,7 @@ class AppointmentController extends Controller
      */
     public function create()
     {
-        //
+        // 
     }
 
     /**
