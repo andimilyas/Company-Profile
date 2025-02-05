@@ -12,7 +12,7 @@ class HeroSectionController extends Controller
      */
     public function index()
     {
-        //
+        // 
     }
 
     /**
