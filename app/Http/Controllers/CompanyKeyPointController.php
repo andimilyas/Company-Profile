@@ -12,7 +12,7 @@ class CompanyKeyPointController extends Controller
      */
     public function index()
     {
-        //
+        // 
     }
 
     /**
