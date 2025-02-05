@@ -17,15 +17,15 @@ class RolePermissionSeeder extends Seeder
     {
         //
         $permissions = [
-            'manage statistics',
-            'manage products',
-            'manage principles',
-            'manage testimonials',
-            'manage clients',
-            'manage teams',
-            'manage about',
-            'manage appointments',
-            'manage hero section',
+            'manage-statistics',
+            'manage-products',
+            'manage-principles',
+            'manage-testimonials',
+            'manage-clients',
+            'manage-teams',
+            'manage-about',
+            'manage-appointments',
+            'manage-hero section',
         ];
 
         foreach ($permissions as $permission)
