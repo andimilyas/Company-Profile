@@ -24,4 +24,10 @@ class Appointment extends Model
     protected $casts = [
         'meeting_date' => 'datetime' //format: Y-m-d H:i:s
     ];
+
+
+    public function product()
+    {
+        return $this->belongsTo(Product::class, 'product_id');
+    }
 }

@@ -17,4 +17,9 @@ class Product extends Model
         'thumbnail',
         'about', 
     ];
+
+    public function appointments()
+    {
+        return $this->hasMany(Appointment::class, 'product_id');
+    }
 }

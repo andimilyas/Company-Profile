@@ -16,4 +16,9 @@ class CompanyAbout extends Model
         'thumbnail',
         'type'
     ];
+
+    public function keyPoints()
+    {
+        return $this->hasMany(CompanyKeyPoint::class, 'company_about_id', 'id');
+    }
 }
